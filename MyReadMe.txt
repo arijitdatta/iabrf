@@ -1,5 +1,5 @@
 For translations
-    https://lokalise.com/blog/react-i18n-intl/
+   https://medium.com/@devpedrodias/how-to-use-i18n-in-your-react-app-1f26deb2a3d8
     
 For Hosting React on GitHubPages
     https://blog.logrocket.com/deploying-react-apps-github-pages/
