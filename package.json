@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"http://arijitdatta.github.io/iabrf",
+  "homepage": "http://arijitdatta.github.io/iabrf",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
-
+    "predeploy": "npm run build",
+    "deploy": "main -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
