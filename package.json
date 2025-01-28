@@ -3,14 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://arijitdatta.github.io/iabrf",
+
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "main -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
