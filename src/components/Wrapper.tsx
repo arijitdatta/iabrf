@@ -24,11 +24,11 @@ const Wrapper = (props) => {
        }
    }
    return (
-       <Context.Provider value = {{locale, selectLanguage}}>
-           <IntlProvider messages={messages} locale={locale}>
-               {props.children}
-           </IntlProvider>
-       </Context.Provider>
+    <Context.Provider value = {{locale, selectLanguage}}>
+         <IntlProvider messages={messages} locale={locale}>
+        {props.children}
+             </IntlProvider>
+    </Context.Provider>
    );
 }
 export default Wrapper;

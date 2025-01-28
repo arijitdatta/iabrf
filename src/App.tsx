@@ -1,6 +1,6 @@
 import './App.css'
 import { FormattedMessage } from 'react-intl';
-import {Context} from "./components/Wrapper";
+import {Context} from './components/Wrapper';
 import { useContext } from 'react';
 
 function App() {
