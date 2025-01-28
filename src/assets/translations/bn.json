@@ -1,3 +1,4 @@
-{
-    "app.welcome" : "আমাদের সাইটে স্বাগতম"
+{ "translation": {
+    "app.welcome" : "আমাদের সাইটে স্বাগতম {{appName}}"
+}
 }
