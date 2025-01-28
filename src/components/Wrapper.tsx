@@ -11,10 +11,10 @@ if (local==="bn") {
 } else {
   lang = English;
 }
-const Wrapper = (props:any) => {
+const Wrapper = (props) => {
    const [locale, setLocale] = useState(local);
    const [messages, setMessages] = useState(lang);
-   function selectLanguage(e:any) {
+   function selectLanguage(e) {
        const newLocale = e.target.value;
        setLocale(newLocale);
        if (newLocale === 'bn') {
